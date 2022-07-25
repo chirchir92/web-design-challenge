@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>max temp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!---------------------------------------------------------------------->
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="landing-page.html">Latitude</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Plots <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="max-temp.html">Max Temperature</a></li>
+                        <li><a href="humidity.html">Humidity</a></li>
+                        <li><a href="cloudiness.html">Cloudiness</a></li>
+                        <li><a href="wind-speed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Comparison</a></li>
+                <li><a href="data-table.html">Data</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <br> 
+    <!------------------------------------------------------------------------>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-12">
+                <div style="background-color: white;">
+                    <h1 style="color: rgb(63, 171, 171)">Max Temperature</h1>
+                    <hr>
+                    <img src="max_temp.png" alt="maxtemp" height="400" width="600" align="center">
+                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                        Latitude).
+                        More interestingly, however, is the fact that the southern hemisphere tends to be warmer this
+                        time
+                        of year
+                        than the northern hemisphere. This may be due to the tilt of the earth at the time of the year
+                        the
+                        data was gathered.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12" id="viz" style="background-color: white;">
+                <h2 style="color: rgb(63, 171, 171)">Visualizations</h2>
+                <hr>
+                <div class="col-md-6 col-sm-3">
+                    <img class="boxx" src="max_temp.png" alt="maxtemp" height="150" width="150">
+                </div>
+
+                <div class="col-md-6 col-sm-3">
+                    <img src="humidity.png" alt="humidity" height="150" width="150">
+                </div>
+
+                <div class="col-md-6 col-sm-3">
+                    <img src="cloudiness.png" alt="cloudiness" height="150" width="150">
+                </div>
+
+                <div class="col-md-6 col-sm-3">
+                    <img src="wind_speed.png" alt="windspeed" height="150" width="150">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(226, 225, 225);
+}
+
+.navbar-brand{
+    background-color: rgb(63, 171, 171);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    background: rgb(245, 247, 250);
+}
+
+.navbar li {
+    display: d-block;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    cursor: pointer; 
+}
+
+#viz {
+    align-items: center;
+
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.h3{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    font-weight: 400;
+}
