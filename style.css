@@ -1,5 +1,6 @@
 body {
     background-color: rgb(226, 225, 225);
+    margin: 0;
 }
 
 .navbar-brand{
@@ -29,10 +30,11 @@ body {
 }
 
 #viz {
-    align-items: center;
-
+    
 }
-
+#cont{
+    
+}
 h1 {
     font-size: 36px;
     padding-top: 30px;
